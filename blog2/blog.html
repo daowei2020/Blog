@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<!--
+        	作者：daowei
+        	时间：2020-10-22
+        	描述：引入文件-用于适应屏幕
+        -->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<!--
+			引入semantic ui文件
+		-->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+		<!--引入自己写的me.css文件 -->
+		<link rel="stylesheet" href="static/css/me.css" />
+		<title>博客详情</title>
+	</head>
+	<body>
+		<!--
+        	作者：daowei
+        	时间：2020-10-22
+        	描述：导航栏
+        -->
+        <nav class="ui inverted attached segment m-padded-tb-mini">
+        	<div class="ui container">
+        		<div class="ui inverted secondary stackable menu">
+        			<h2 class="ui teal header item">Blog</h2>
+        			<a href="#" class="m-item item m-mobile-hide"><i class="mini home icon"></i>首页</a>
+        			<a href="#" class="m-item item m-mobile-hide"><i class="mini idea icon"></i>分类</a>
+        			<a href="#" class="m-item item m-mobile-hide"><i class="mini tags icon"></i>标签</a>
+        			<a href="#" class="m-item item m-mobile-hide"><i class="mini clone icon"></i>归档</a>
+        			<a href="#" class="m-item item m-mobile-hide"><i class="mini info icon"></i>关于我</a>
+        			<div class="m-item right item m-mobile-hide">
+        				<div class="ui icon inverted transparent input">
+        					<input type="text" placeholder="Search..." />
+        					<i class="search link icon"></i>
+        				</div>
+        			</div>
+        		</div>
+        	</div>
+        	<a href="#" class="ui menu toggle black icon button m-right-top m-mobile-show">
+        		<i class="sidebar icon"></i>
+        	</a>
+        </nav>
+        <!--
+        	作者：daowei
+        	时间：2020-10-28
+        	描述：中间内容
+        -->
+        <div class="m-padded-tb-big m-container-small">
+        	<div class="ui container">
+        		<div class="ui top attached segment">
+        			<div class="ui horizontal link list">
+        				<div class="item">
+        					<img src="https://picsum.photos/seed/picsum/100/100" alt="" class="ui avatar image"/>
+        					<div class="content"><a href="#" class="header">daowei</a></div>
+        				</div>
+        				<div class="item">
+        					<i class="calendar icon"></i>2020-11-06
+        				</div>
+        				<div class="item">
+        					<i class="eye icon"></i>2343
+        				</div>
+        			</div>
+        		</div>
+        		<!--—图片区域--->
+        		<div class="ui attached segment">
+        			<img src="https://picsum.photos/seed/picsum/800/450" alt="" class="ui fluid rounded image"/>
+        		</div>
+        		<!--
+                	作者：daowei
+                	时间：2020-11-06
+                	描述：内容
+                -->
+        		<div class="ui attached padded segment">
+        			<div class="ui right aligned basic segment">
+        				<div class="ui orange basic label">原创</div>
+        			</div>
+        			<h2 class="ui center aligned header">关于刻意练习的清单</h2>
+        			<br />
+        			<div id="content" class="m-padded-lr m-padded-tb-large">
+        				<h2>序</h2>
+        				<p>最近几天在读【刻意练习】这本书，书中的一些概念与方法论让我受益匪浅。【刻意练习】是适用于任何领域技能的一套有效的学习方法。在学习一项技能
+        				的时候，尽量的靠近【刻意练习】的原则，非常有效。这里结合自己的学习经验，总结对大家普遍适用的核心的概念于方法论以【清单】的形式分享，与君共勉</p>
+        				<h2>1</h2>
+        				<p>不要相信所谓天赋的说法。不要相信你生来不擅长某些领域，以为自己不是那块料。这种认知会害了你。任何技能只要掌握了正确的学习方法（刻意练习）
+        				，你都可以成为高手、专家</p>
+        				<h2>2</h2>
+        				<p>不要相信所谓“21天XXX从入门道精通”这样的屁话。任何一项技能的学习必须要有大量时间的高质量练习才能够精通。放弃你“短时间精通”的想法。
+        				但快速入门是有方法可循的。</p>
+        				<p></p>
+        				<h2>3</h2>
+        				<p>刻意练习原则一：你的练习活动必须要突破舒适区，在舒适区之外的练习才能让你有进步，在舒适区内的简单重复毫无意义，即使是练习了10000个小时
+        					。这一点至关重要。什么是舒适区？就是你已经熟练，做起来毫不费力的技能区域。比如：出租车司机的车技，不会再有什么提高，因为他的所有练习活动
+        					都发生在舒适区内。
+        				</p>
+        				<p></p>
+        				<h2>4</h2>
+        				<p>刻意练习原则二：每个练习活动必须要有清晰的目标、具体、突破舒适区的目标。不明白？第一、这个目标可以清晰到可以判断你的练习结束后是否达标，是
+        					或者否。第二、这个目标具体到某个特定的方面，不要太全、太大，大目标要分解到具体小目标。例如：篮球运动分解练习之交叉运球。第三，目标要突破舒适区，就是
+        					目标一定是你通过反复练习后才能达到的目标，不是你现在就能轻松达到的目标，值得注意的是目标不要过于困难，每个目标刚好要突破舒适区。
+        					
+        				</p>
+        				<p></p>
+        				<h2>5</h2>
+        				<p>刻意练习原则三：每个练习活动必须投入100%的注意力，切记不可三心二意。完全投入的练习才能容易建立完整的心理表征，练习才能见成效。
+        				保持注意力的方法：第一、要保证充足的睡眠。第二、单个练习时段不要太长，保持在一个小时内，或者更短。</p>
+        				<p></p>
+        				<h2>6</h2>
+        				<p>刻意练习原则四：每个练习活动要有及时反馈。练习过程中 的对与错能够及时发现并加以改成是快速进步的关键。如果你有一个很专业
+        				的教练或者导师来监测你更好。如果没有，你要对自己的活动要非常敏感，能及时察觉的自己的行为对于错（这需要你的元认知能力，后面会写一片文章将它）。制定
+        				清晰具体的练习目标有助于你的及时反馈</p>
+        				<p></p>
+        				<h2>7</h2>
+        				<p>刻意练习背后的原理是通过重复动作建立高质量心理表征。什么是心理表征？各个领域的杰出这之所以杰出，是因为在该领域内他建立了
+        				高质量的心理表征。当自身内部或者外部某个想法、某个场景发生时，对应于你内心的心理结构就是心理表征。简单举例：比如看到“蒙娜丽莎”这几个字
+        				，你会立刻在脑海里看到那幅著名的油画。刻意练习的主要目的就是建立高质量有效的心理表征，从而达到不经过思考快速做出有效高质量的反应，这就是高手的表现。</p>
+        				<p></p>
+        				<h2>总结</h2>
+        				<p>所以呢，不要以为自己没有天赋，也不要迷信“21天速成”。任何技能只要你掌握正确有效的学习方法，你都可以学会。你要相信万事背后必有道理，
+        				任何事情都有方法，也许只是你暂时没有找到而已。</p>
+        			</div>
+        			<!--标签-->
+        			<div class="m-padded-lr">
+        				<div class="ui basic teal left pointing label">方法论</div>
+        			</div>
+        			<!--赞赏-->
+        			<div class="ui center aligned basic segment">
+        				<button class="ui orange basic circular button">赞赏</button>
+        			</div>
+        		</div>
+        		<div class="ui attached positive message">博客信息</div>
+        		<div class="ui bottom attached segment">留言区域</div>
+        		
+        	</div>        	
+        </div>
+		<div>
+			
+		</div>
+		
+		
+		<footer class="ui inverted  vertical segment m-padded-tb-massive">
+			<div class="ui center aligned container">
+				<div class="ui inverted divided stackable grid">
+					<div class="three wide column">
+						<div class="ui inverted link list">
+							<div class="item">
+							<img src="static/img/2weima.jpg" class="ui rounded image" style="width: 110px;"/>	
+						</div>	
+						</div>
+					</div>
+					<div class="three wide column">
+						<h4 class="ui inverted header m-text-thin m-text-spaced ">最新博客</h4>
+						<div class="ui inverted link list">
+							<a href="#" class="item">用户故事(User Story)</a>
+							<a href="#" class="item">关于刻意练习的清单</a>
+							<a href="#" class="item">失败要趁早</a>
+						</div>
+					</div>
+					<div class="three wide column">
+						<h4 class="ui inverted headerm-text-thin m-text-spaced">联系我</h4>
+						<div class="ui inverted link list">
+							<a href="#" class="item">Email:2721834882@qq.com</a>
+							<a href="#" class="item">QQ:2721834882</a>
+						</div>
+					</div>
+					<div class="seven wide column">
+						<h4 class="ui inverted header m-text-thin m-text-spaced">daowei</h4>
+						<p class="m-text-thin m-text-spaced m-opacity-mini">这是我的个人博客、会分享关于编程、写作、思考相关的任何内容，希望可以给来到这儿的人有所帮助...</p>
+					</div>
+				</div>
+				<div class="ui inverted section divider"></div>
+				<p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright © 2020 Blog Designed by DaoWei</p>
+			</div>
+		</footer>
+		<!-- 引入semantic ui 的同时需要依赖jquery,所以需要引入jquery -->
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+		<script>
+			$('.menu.toggle').click(function(){
+				$('.m-item').toggleClass('m-mobile-hide');
+			});
+		</script>
+	</body>
+</html>
